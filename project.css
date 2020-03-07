@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+.header{
+	background-color: blue;
+	color: white;
+}
+/*.button{
+	padding: 20px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	border-radius: 5px;
+}*/
+.mid{
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+.clearfix{
+	clear: both;
+}
+.box1, .box2, .box3, .box4{
+	width: 25%;
+	display: inline-block;
+	float: left;
+	height: 250px;
+}
+.box1{
+	background-color: red;
+}
+.box2{
+	background-color: yellow;
+}
+.box3{
+	background-color: green;
+}
+.box4{
+	background-color: black;
+}
